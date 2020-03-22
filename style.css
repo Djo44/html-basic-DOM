@@ -1,0 +1,36 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	padding-top: 10rem;
+}
+
+.colorBtn {
+	width: auto;
+	height: auto;
+	padding: 0.25rem 0.5rem;
+	border: 3px solid white;
+	border-radius: 7px;
+	color: azure;
+	background-color: black;
+	opacity: 0.6;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	cursor: pointer;
+	outline: none;
+}
+
+.colorBtn:hover {
+	background: black;
+	opacity: 1;
+}
+
+h1 {
+	color: white;
+	display: flex;
+	justify-content: left;
+	font-weight: bold;
+	text-transform: capitalize;
+}
